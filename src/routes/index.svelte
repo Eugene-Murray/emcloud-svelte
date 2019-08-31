@@ -33,10 +33,10 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>EMCloud.co | Eugene Murray</title>
 </svelte:head>
 
-<h1>Great successllll!</h1>
+<h1>EMCloud.co | Eugene Murray</h1>
 
 <figure>
 	<img alt='Borat' src='great-success.png'>
