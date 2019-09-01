@@ -57,7 +57,8 @@
 		     the blog data when we hover over the link or tap it on a touchscreen -->
 		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
 		
-		<li><a class='{segment === "data" ? "selected" : ""}' href='data'>data</a></li>
+		<li><a class='{segment === "data" ? "selected" : ""}' href='data'>external data</a></li>
+		<li><a class='{segment === "count" ? "selected" : ""}' href='count'>count</a></li>
 		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>contact</a></li>
 	</ul>
 </nav>
