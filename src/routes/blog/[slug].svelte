@@ -57,6 +57,8 @@
 	<title>{post.title}</title>
 </svelte:head>
 
+<a href='blog'>- back</a>
+
 <h1>{post.title}</h1>
 
 <div class='content'>

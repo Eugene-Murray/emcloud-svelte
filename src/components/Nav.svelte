@@ -7,6 +7,7 @@
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
+		background-color: #eee;
 	}
 
 	ul {
@@ -59,6 +60,7 @@
 		
 		<li><a class='{segment === "data" ? "selected" : ""}' href='data'>external data</a></li>
 		<li><a class='{segment === "count" ? "selected" : ""}' href='count'>count</a></li>
+		<li><a class='{segment === "flex-grid" ? "selected" : ""}' href='flex-grid'>flex-grid</a></li>
 		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>contact</a></li>
 	</ul>
 </nav>

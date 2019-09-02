@@ -10,6 +10,7 @@
 const posts = [
 	{
 		title: 'What is Sapper?',
+		description: 'bla bla bla 1',
 		slug: 'what-is-sapper',
 		html: `
 			<p>First, you have to know what <a href='https://svelte.dev'>Svelte</a> is. Svelte is a UI framework with a bold new idea: rather than providing a library that you write code with (like React or Vue, for example), it's a compiler that turns your components into highly optimized vanilla JavaScript. If you haven't already read the <a href='https://svelte.dev/blog/frameworks-without-the-framework'>introductory blog post</a>, you should!</p>
@@ -30,6 +31,7 @@ const posts = [
 	{
 		title: 'How to use Sapper',
 		slug: 'how-to-use-sapper',
+		description: 'bla bla bla 2',
 		html: `
 			<h2>Step one</h2>
 			<p>Create a new project, using <a href='https://github.com/Rich-Harris/degit'>degit</a>:</p>
@@ -53,6 +55,7 @@ const posts = [
 
 	{
 		title: 'Why the name?',
+		description: 'bla bla bla 3',
 		slug: 'why-the-name',
 		html: `
 			<p>In war, the soldiers who build bridges, repair roads, clear minefields and conduct demolitions — all under combat conditions — are known as <em>sappers</em>.</p>
@@ -63,6 +66,7 @@ const posts = [
 
 	{
 		title: 'How is Sapper different from Next.js?',
+		description: 'bla bla bla 4',
 		slug: 'how-is-sapper-different-from-next',
 		html: `
 			<p><a href='https://github.com/zeit/next.js'>Next.js</a> is a React framework from <a href='https://zeit.co'>Zeit</a>, and is the inspiration for Sapper. There are a few notable differences, however:</p>
