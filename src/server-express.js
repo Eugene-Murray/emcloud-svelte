@@ -2,6 +2,7 @@ import express from 'express';
 import sirv from 'sirv';
 import compression from 'compression';
 import * as sapper from '@sapper/server';
+import cors from 'cors';
 
 import usersRouter from './api/users';
 
@@ -12,7 +13,8 @@ export default class Server {
     constructor() { }
 
     run() {
-        express() // You can also use Express
+        express() 
+            .use(cors())
             .use('/api/users', usersRouter)
             .use(
                 compression({ threshold: 0 }),
