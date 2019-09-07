@@ -3,3 +3,4 @@ import Server from './server-express';
 
 const server = new Server();
 server.run();
+//server.connectToMongo();
