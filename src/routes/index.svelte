@@ -36,11 +36,11 @@
 	<title>EMCloud.co | Eugene Murray</title>
 </svelte:head>
 
-<h1>EMCloud.co | Eugene Murray</h1>
-
 <figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
+	<figcaption>Finance</figcaption>
 </figure>
 
-<p>this is my blog</p>
+
+
+
+
