@@ -7,7 +7,7 @@
     const apiResponse = await fetch("https://swapi.co/api/people/");
     const swPeopleJSON = await apiResponse.json();
 
-    const apiLocal = await fetch("https://emcloud-7901.nodechef.com/api/users");
+    const apiLocal = await fetch("http://localhost:3000/api/users");
 
     const result = await apiLocal.json(); 
     console.warn(result);

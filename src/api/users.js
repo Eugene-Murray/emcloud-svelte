@@ -4,7 +4,7 @@ var http = require('http');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  console.warn('get users', req);
+  console.warn('get users');
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify({ a: 1 }));
 });

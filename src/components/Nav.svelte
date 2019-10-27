@@ -60,9 +60,11 @@
 		
 		<li><a class='{segment === "trading-view" ? "selected" : ""}' href='trading-view'>trading view widgets</a></li>
 		<li><a class='{segment === "data" ? "selected" : ""}' href='data'>external data</a></li>
-		
+		<li><a class='{segment === "you tube" ? "selected" : ""}' href='you-tube'>videos</a></li>
 		<li><a class='{segment === "count" ? "selected" : ""}' href='count'>count</a></li>
 		<li><a class='{segment === "flex-grid" ? "selected" : ""}' href='flex-grid'>flex-grid</a></li>
 		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>contact</a></li>
+		<li><a class='{segment === "signals" ? "selected" : ""}' href='signals'>signals</a></li>
+		<li><a class='{segment === "twitter" ? "selected" : ""}' href='twitter'>twitter</a></li>
 	</ul>
 </nav>

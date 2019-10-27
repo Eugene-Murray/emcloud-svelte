@@ -3,9 +3,12 @@ import sirv from 'sirv';
 import compression from 'compression';
 import * as sapper from '@sapper/server';
 import cors from 'cors';
+import bodyParser from 'body-parser';
+
 //import mongoose from 'mongoose';
 
 import usersRouter from './api/users';
+import signalsRouter from './api/signals';
 
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
@@ -16,7 +19,10 @@ export default class Server {
     run() {
         express() 
             .use(cors())
+            .use('/api/signals', signalsRouter)
             .use('/api/users', usersRouter)
+            .use(bodyParser.json()) // support json encoded bodies
+            .use(bodyParser.urlencoded({ extended: true })) // support encoded bodies
             .use(
                 compression({ threshold: 0 }),
                 sirv('static', { dev }),
