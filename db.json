@@ -1,0 +1,14 @@
+{
+  "signals": [
+    {
+      "symbol": "GBPUSD",
+      "timeFrame": "15m",
+      "dateTime": "Sunday, October 27th 2019, 10:29:23 pm"
+    },
+    {
+      "symbol": "EURUSD",
+      "timeFrame": "15m",
+      "dateTime": "Sunday, October 27th 2019, 10:30:34 pm"
+    }
+  ]
+}
