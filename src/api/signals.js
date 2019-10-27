@@ -11,7 +11,7 @@ const db = low(adapter);
 
 db.defaults({ signals: [] }).write();
 
-router.get("/symbol/:symbol/timeFrame/:timeframe", (req, res) => {
+router.post("/symbol/:symbol/timeFrame/:timeframe", (req, res) => {
   console.warn("signals", req.params);
   db.get("signals")
     .push({ symbol: req.params.symbol, timeFrame: req.params.timeframe, dateTime: moment().format("dddd, MMMM Do YYYY, h:mm:ss a") })
