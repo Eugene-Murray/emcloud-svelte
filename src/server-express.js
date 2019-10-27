@@ -19,10 +19,15 @@ export default class Server {
     run() {
         express() 
             .use(cors())
+            .use(bodyParser.json()) // support json encoded bodies
+            .use(bodyParser.urlencoded({ extended: true })) 
             .use('/api/signals', signalsRouter)
             .use('/api/users', usersRouter)
-            .use(bodyParser.json()) // support json encoded bodies
-            .use(bodyParser.urlencoded({ extended: true })) // support encoded bodies
+            .post('/api/test', function(req, res) {
+                var user_id = req.body;
+                console.warn(user_id);
+                res.send(user_id);
+            })
             .use(
                 compression({ threshold: 0 }),
                 sirv('static', { dev }),
