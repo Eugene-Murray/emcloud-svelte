@@ -51,7 +51,8 @@
 <nav>
 	<ul>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>emcloud.co</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
+		<li><a class='{segment === "market-data" ? "selected" : ""}' href='market-data'>market data</a></li>
+		<li><a class='{segment === "forex-heat-map" ? "selected" : ""}' href='forex-heat-map'>forex heatmap</a></li>
 		
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
