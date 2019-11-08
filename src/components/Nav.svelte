@@ -7,7 +7,7 @@
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
-		background-color: #eee;
+		background-color: #15263C;
 	}
 
 	ul {
@@ -25,6 +25,9 @@
 	li {
 		display: block;
 		float: left;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
 	}
 
 	.selected {
@@ -59,12 +62,12 @@
 		     the blog data when we hover over the link or tap it on a touchscreen -->
 		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
 		
-		<li><a class='{segment === "trading-view" ? "selected" : ""}' href='trading-view'>trading view widgets</a></li>
-		<li><a class='{segment === "data" ? "selected" : ""}' href='data'>external data</a></li>
+		<li><a class='{segment === "chart" ? "selected" : ""}' href='chart'>chart</a></li>
+		<!-- <li><a class='{segment === "data" ? "selected" : ""}' href='data'>external data</a></li> -->
 		<li><a class='{segment === "you tube" ? "selected" : ""}' href='you-tube'>videos</a></li>
-		<li><a class='{segment === "count" ? "selected" : ""}' href='count'>count</a></li>
-		<li><a class='{segment === "flex-grid" ? "selected" : ""}' href='flex-grid'>flex-grid</a></li>
-		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>contact</a></li>
+		<!-- <li><a class='{segment === "count" ? "selected" : ""}' href='count'>count</a></li> -->
+		<!-- <li><a class='{segment === "flex-grid" ? "selected" : ""}' href='flex-grid'>flex-grid</a></li>
+		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>contact</a></li> -->
 		<li><a class='{segment === "signals" ? "selected" : ""}' href='signals'>signals</a></li>
 		<li><a class='{segment === "twitter" ? "selected" : ""}' href='twitter'>twitter</a></li>
 	</ul>
