@@ -1,4 +1,734 @@
 {
   "signals": [
+    {
+      "symbol": "EURUSD",
+      "timeFrame": "15m",
+      "dateTime": "Friday, November 1st 2019, 9:22:38 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:13:39 am"
+    },
+    {
+      "symbol": "DAX",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:13:48 am"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:14:02 am"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:14:31 am"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:14:42 am"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:15:02 am"
+    },
+    {
+      "symbol": "USDCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:15:03 am"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:15:10 am"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:15:17 am"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:20:22 am"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:30:04 am"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:30:11 am"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:30:12 am"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:48:32 am"
+    },
+    {
+      "symbol": "EURCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 9:00:04 am"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 9:30:03 am"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 9:46:23 am"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 11:00:02 am"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 11:36:41 am"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 11:45:18 am"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:00:25 pm"
+    },
+    {
+      "symbol": "USDCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:00:39 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:00:54 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:15:04 pm"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:15:07 pm"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:30:06 pm"
+    },
+    {
+      "symbol": "DAX",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:30:08 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:31:45 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:33:47 pm"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:45:04 pm"
+    },
+    {
+      "symbol": "DAX",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:45:04 pm"
+    },
+    {
+      "symbol": "EURCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:45:09 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 12:58:59 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 1:05:46 pm"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 1:15:13 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 1:30:05 pm"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 1:32:33 pm"
+    },
+    {
+      "symbol": "DAX",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 1:44:06 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 1:45:17 pm"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 2:15:06 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 2:30:22 pm"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 2:30:48 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 2:45:10 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 2:54:31 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:00:06 pm"
+    },
+    {
+      "symbol": "DAX",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:00:23 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:15:03 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:15:04 pm"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:15:05 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:30:04 pm"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:30:10 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:45:03 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:45:05 pm"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:45:23 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 3:45:59 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 4:00:06 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 4:00:07 pm"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 4:15:04 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 4:30:05 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 4:45:03 pm"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 5:00:09 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 5:02:07 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 6:00:15 pm"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 6:00:40 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 6:30:05 pm"
+    },
+    {
+      "symbol": "USDCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 6:43:15 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 6:45:02 pm"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 6:45:54 pm"
+    },
+    {
+      "symbol": "EURCHF",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 7:00:06 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 7:00:06 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 7:30:01 pm"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 7:45:06 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 7:45:50 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:00:06 pm"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 8:45:01 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Monday, November 4th 2019, 9:00:07 pm"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 7:48:14 am"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 7:58:19 am"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 8:00:12 am"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:00:17 am"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:15:02 am"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:16:48 am"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:30:05 am"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:30:10 am"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:30:13 am"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:30:13 am"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:30:45 am"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:45:19 am"
+    },
+    {
+      "symbol": "EURCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:49:52 am"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:51:52 am"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 9:52:14 am"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 10:00:29 am"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 10:45:03 am"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 10:59:28 am"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 11:45:02 am"
+    },
+    {
+      "symbol": "CADJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 12:15:04 pm"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 12:15:06 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 12:30:05 pm"
+    },
+    {
+      "symbol": "EURCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 12:30:05 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 12:45:02 pm"
+    },
+    {
+      "symbol": "EURCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 12:51:30 pm"
+    },
+    {
+      "symbol": "DAX",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 12:55:19 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:00:09 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:00:20 pm"
+    },
+    {
+      "symbol": "USDCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:04:39 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:16:31 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:20:53 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:21:13 pm"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:30:04 pm"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:30:20 pm"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:30:35 pm"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 1:45:06 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 2:00:09 pm"
+    },
+    {
+      "symbol": "CADJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 2:00:09 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 2:00:14 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 2:30:17 pm"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 2:45:07 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 3:32:53 pm"
+    },
+    {
+      "symbol": "Oil",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 3:45:09 pm"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 3:45:20 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:00:03 pm"
+    },
+    {
+      "symbol": "USDCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:00:13 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:01:23 pm"
+    },
+    {
+      "symbol": "CADCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:15:01 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:15:03 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:15:05 pm"
+    },
+    {
+      "symbol": "USDCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:15:16 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:38:35 pm"
+    },
+    {
+      "symbol": "USDCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:41:46 pm"
+    },
+    {
+      "symbol": "USDCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:45:03 pm"
+    },
+    {
+      "symbol": "DAX",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:46:11 pm"
+    },
+    {
+      "symbol": "EURCHF",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 4:47:58 pm"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 5:30:09 pm"
+    },
+    {
+      "symbol": "DOW30",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 5:45:04 pm"
+    },
+    {
+      "symbol": "USDJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:00:05 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:04:05 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:04:10 pm"
+    },
+    {
+      "symbol": "AUDNZD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:15:02 pm"
+    },
+    {
+      "symbol": "AUDUSD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:15:02 pm"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:26:40 pm"
+    },
+    {
+      "symbol": "EURCAD",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:30:03 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:45:01 pm"
+    },
+    {
+      "symbol": "Silver",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 6:45:08 pm"
+    },
+    {
+      "symbol": "CHFJPY",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 7:00:06 pm"
+    },
+    {
+      "symbol": "SPX500",
+      "timeFrame": "15",
+      "dateTime": "Friday, November 8th 2019, 7:15:07 pm"
+    }
   ]
 }
