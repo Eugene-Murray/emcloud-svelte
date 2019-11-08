@@ -8,7 +8,7 @@
 	main {
 		position: relative;
 		max-width: 150em;
-		background-color: white;
+		background-color: #131722;
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;

@@ -13,13 +13,14 @@
 
 	figure {
 		margin: 0 0 1em 0;
+		color: aliceblue;
 	}
 
-	img {
+	/* img {
 		width: 100%;
 		max-width: 400px;
 		margin: 0 0 1em 0;
-	}
+	} */
 
 	p {
 		margin: 1em auto;
@@ -32,13 +33,47 @@
 	}
 </style>
 
+<script>
+  import Calendar from "../components/Calendar.svelte";
+  import StockTickerTape from "../components/StockTickerTape.svelte";
+  import MarketOverview from "../components/MarketOverview.svelte";
+</script>
+
 <svelte:head>
-	<title>EMCloud.co | Eugene Murray</title>
+	<title>EMCloud.co | Trend Trading Signals</title>
 </svelte:head>
 
 <figure>
-	<figcaption>Finance</figcaption>
+	<figcaption>
+  <h2><span><img src="Vector.jpg" alt="logo" height="40" width="40"></span>
+  <span>EMCloud.co | Trend Trading Signals</span></h2>
+  </figcaption>
 </figure>
+
+
+<div class="container" style="height: 1000px">
+
+  <div class="row">
+    <div class="col">
+
+<StockTickerTape />
+
+    </div>
+  </div>
+  <div class="row" style="height: 700px">
+    <div class="col" style="height: 700px">
+
+<Calendar />
+
+    </div>
+    <div class="col" style="height: 700px">
+
+<MarketOverview />
+
+    </div>
+  </div>
+
+</div>
 
 
 
