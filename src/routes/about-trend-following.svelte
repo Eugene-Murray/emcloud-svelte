@@ -115,7 +115,7 @@ Risk Management: Some risk-management models will sell in down markets as, for e
     
     </li>
     <li class="list-group-item">RSI (Relative Strength Index)</li>
-    <li class="list-group-item"><img src="content-images/tend-indicators-chart.jpg" alt="tend indicators chart" width="100%"></li>
+    <li class="list-group-item"><img src="content-image-tend-indicators-chart.jpg" alt="tend indicators chart" width="100%"></li>
   </ul>
     
   </div>

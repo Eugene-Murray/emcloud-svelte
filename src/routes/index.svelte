@@ -46,7 +46,7 @@
 
 <figure>
 	<figcaption>
-  <h2><span><img src="Vector.jpg" alt="logo" height="40" width="40"></span>
+  <h2><span><img src="site-image-logo.jpg" alt="logo" height="40" width="40"></span>
   <span>EMCloud.co | Trend Trading Signals</span></h2>
   </figcaption>
 </figure>
