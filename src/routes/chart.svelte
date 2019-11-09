@@ -19,10 +19,11 @@
 
   </script>
   <script type="text/javascript">
+  symbol = "NYSE:AXP";
     new TradingView.widget({
       width: 1400,
       height: 1000,
-      symbol: "NASDAQ:AAPL",
+      symbol,
       interval: "D",
       timezone: "Europe/London",
       theme: "Dark",

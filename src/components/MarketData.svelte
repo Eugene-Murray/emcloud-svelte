@@ -1,8 +1,3 @@
-<svelte:head>
-	<title>Market Data</title>
-</svelte:head>
-
-
 <div class="container" style="height: 700px">
   <div class="row" style="height: 700px">
     <div class="col" style="height: 700px">

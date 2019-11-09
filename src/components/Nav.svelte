@@ -5,7 +5,7 @@
 <style>
 	nav {
 		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
+		font-weight: 200;
 		padding: 0 1em;
 		background-color: #15263C;
 	}
@@ -27,7 +27,7 @@
 		float: left;
 		color: white;
 		font-weight: bold;
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.selected {
@@ -53,9 +53,13 @@
 </style>
 <nav>
 	<ul>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>emcloud.co</a></li>
-		<li><a class='{segment === "market-data" ? "selected" : ""}' href='market-data'>market data</a></li>
-		<li><a class='{segment === "forex-heat-map" ? "selected" : ""}' href='forex-heat-map'>forex heatmap</a></li>
+		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
+		<li><a class='{segment === "about-trend-following" ? "selected" : ""}' href='about-trend-following'>about trend following</a></li>
+		<li><a class='{segment === "watch-list-signals" ? "selected" : ""}' href='watch-list-signals'>watch list signals</a></li>
+		<!-- <li><a class='{segment === "signals" ? "selected" : ""}' href='signals'>signals</a></li> -->
+		<li><a class='{segment === "mega-trends" ? "selected" : ""}' href='mega-trends'>mega trends</a></li>
+		<li><a class='{segment === "equity screener" ? "selected" : ""}' href='equity-screener'>equity screener</a></li>
+		<li><a class='{segment === "forex-tools" ? "selected" : ""}' href='forex-tools'>forex tools</a></li>
 		
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
@@ -68,7 +72,10 @@
 		<!-- <li><a class='{segment === "count" ? "selected" : ""}' href='count'>count</a></li> -->
 		<!-- <li><a class='{segment === "flex-grid" ? "selected" : ""}' href='flex-grid'>flex-grid</a></li>
 		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>contact</a></li> -->
-		<li><a class='{segment === "signals" ? "selected" : ""}' href='signals'>signals</a></li>
+		
 		<li><a class='{segment === "twitter" ? "selected" : ""}' href='twitter'>twitter</a></li>
+		<li><a class='{segment === "data-sources" ? "selected" : ""}' href='data-sources'>data sources</a></li>
+		<li><a class='{segment === "trade-plan" ? "selected" : ""}' href='trade-plan'>trade plan</a></li>
+		<li><a class='{segment === "trading-investing-tools" ? "selected" : ""}' href='trading-investing-tools'>trading & investing tools</a></li>
 	</ul>
 </nav>

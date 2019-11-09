@@ -1,5 +1,13 @@
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+    let showTwitter = false;
+    setTimeout(() => {
+        showTwitter = true;
+    }, 5000);
+</script>
+
+{#if showTwitter }
 <div id="twitter-feeds" style="width: 100%">
 			
     <table border="1" style="width: 100%" id="#twitter-feeds-table">
@@ -19,3 +27,4 @@
         </tr>
     </table>
 </div>
+{/if}

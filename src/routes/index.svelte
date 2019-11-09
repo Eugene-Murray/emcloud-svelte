@@ -37,6 +37,7 @@
   import Calendar from "../components/Calendar.svelte";
   import StockTickerTape from "../components/StockTickerTape.svelte";
   import MarketOverview from "../components/MarketOverview.svelte";
+  import MarketData from "../components/MarketData.svelte";
 </script>
 
 <svelte:head>
@@ -51,7 +52,7 @@
 </figure>
 
 
-<div class="container" style="height: 1000px">
+<div class="container" style="height: 100%">
 
   <div class="row">
     <div class="col">
@@ -70,6 +71,11 @@
 
 <MarketOverview />
 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+	<MarketData />
     </div>
   </div>
 
