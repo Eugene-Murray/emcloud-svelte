@@ -20,7 +20,7 @@
     "http-errors": "^1.7.3",
     "lowdb": "^1.0.0",
     "moment": "^2.24.0",
-    "mongoose": "^5.6.13",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "polka": "next",
     "sirv": "^0.4.0"
