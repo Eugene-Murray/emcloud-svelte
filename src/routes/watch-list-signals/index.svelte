@@ -35,7 +35,7 @@
 <script>
   export let segment;
   import AXP from "./us-equity/AXP.svelte";
-  import Oil from "./commodity/Oil.svelte";
+  import OIL from "./commodity/OIL.svelte";
 </script>
 
 <svelte:head>
@@ -58,7 +58,7 @@
       <tr>
         <td>1.</td>
         <td>
-        <Oil />
+        <OIL />
         
         
         </td>
